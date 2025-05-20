@@ -1,0 +1,8 @@
+# Python version: Apple Silicon(M1/M2/M3, 즉 m4 포함)에서 잘 동작하는 3.9~3.11 권장
+# 예시: pyenv로 3.10.13 설치 추천
+
+numpy
+tensorflow-macos
+tensorflow-metal
+torch
+torchvision
