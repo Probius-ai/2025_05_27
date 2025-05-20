@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 mnist_dataset = MNIST(
     root='mnist_offline',         # mnist_offline 폴더를 지정
     train=True,
-    download=True,               # 데이터셋이 없으면 자동 다운로드
+    download=False,               # 데이터셋이 없으면 자동 다운로드
     transform=transforms.ToTensor()
 )
 

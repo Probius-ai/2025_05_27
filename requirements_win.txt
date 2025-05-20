@@ -1,0 +1,8 @@
+# Windows용 requirements.txt (Python 3.9~3.11 권장)
+# 예시: pyenv, Anaconda, 또는 공식 python.org 설치 권장
+
+numpy
+tensorflow
+# tensorflow-metal은 macOS 전용이므로 제외
+torch
+torchvision
